@@ -6,6 +6,9 @@ saved in your working directory.
 
 http://www.hometheaterinfo.com/dvdlist.htm
 
+Particularly this file 
+http://www.hometheaterinfo.com/download/dvd_csv.zip
+
 Be aware that the Field name are case senstive, therefore be sure to use fields as shown below
 
 (DVD_Title,Studio,Released,Status,Sound,Versions,Price,Rating,Year,Genre,Aspect,UPC,DVD_ReleaseDate,ID,Timestamp)
