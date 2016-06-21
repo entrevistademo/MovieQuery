@@ -1,13 +1,14 @@
 ## Movie Query Command Line Tool
 
 This project essentially queries by Field Name of the CSV file which is located in the URL below. Download the zip file 
-that states is a zip of the CSV file and save in the directory which you plan on running.   Unzip the File and have the CSV
-saved in your working directory. 
+that states is a zip of the CSV file and save in the directory which you plan on running.   
 
 http://www.hometheaterinfo.com/dvdlist.htm
 
 Particularly this file 
 http://www.hometheaterinfo.com/download/dvd_csv.zip
+
+Unzip the File and have the CSV saved in your working directory. 
 
 Be aware that the Field name are case senstive, therefore be sure to use fields as shown below
 
