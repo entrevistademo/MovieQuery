@@ -4,7 +4,8 @@ import csv
 
 def query(field, criteria):
 	df = pd.read_csv('orgdvd.csv')
-	Searches = df[df[field].str.contains(criteria, case=False)]
+	df = df.astype(str)
+	Searches = df[df[field].str.contains(criteria, case=False).fillna(False)]
 	return Searches
 
 def main():
