@@ -1,14 +1,17 @@
 ## Movie Query Command Line Tool
 
-This project essentially queries by Field Name of the CSV file which is located in the URL below. Download the zip file 
-that states is a zip of the CSV file and save in the directory which you plan on running.   
+This project essentially queries by Field Name of the CSV file which is located in the URL below. 
+
+
 
 http://www.hometheaterinfo.com/dvdlist.htm
 
 Particularly this file 
 http://www.hometheaterinfo.com/download/dvd_csv.zip
 
-Unzip the File and have the CSV saved in your working directory. 
+The python program essentially takes the URL from above and works with the file directly.   
+No need to download the file and unzip etc etc.   
+The software will automatically go to the URL above and use the file directly. 
 
 Be aware that the Field name are case senstive, therefore be sure to use fields as shown below
 
@@ -29,6 +32,7 @@ This project was recommended by Prospective Employer.
 ## Installation
 -Ensure that Python 2.7.6 
 -In case Pandas is not installed - (assuming you are using linux (debian ubuntu flavor)
+-This also assumes that python automatically has argparse, csv, requests, zipfile, urllib2, io libraries.
 
     ~: sudo apt-get install python-pandas 
  
