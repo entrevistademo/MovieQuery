@@ -1,6 +1,6 @@
 ## Movie Query Command Line Tool
 
-This project essentially queries by Field Name of the CSV file which is located in the URL below. 
+This project queries by Field Name of the CSV file which is located in the URL below. 
 
 
 
