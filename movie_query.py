@@ -7,6 +7,7 @@ import urllib2
 import io
 #Importing libraries necessary to create this program.
 
+#This is python command line tool to query the movie file from URL.
 
 #declare the function that does the bulk of the queries.
 def query(field, criteria, file):
